@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center; /* محاذاة أفقية للأزرار */
+    align-items: center; /* محاذاة رأسية للأزرار */
+    height: 100vh; /* ارتفاع الصفحة بالكامل */
+    margin: 0; /* إزالة الهوامش */
+    background-color: #f0f0f0; /* لون خلفية اختياري */
+}
+.button-container {
+    display: flex;
+    gap: 15px; /* مسافة بين الأزرار */
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* لون الخلفية */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3; /* لون عند تمرير الفأرة */
+     }
